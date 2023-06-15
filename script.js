@@ -78,10 +78,12 @@ function playVideo() {
 
 function burgerOpen() {
     header_nav_first.classList.add("header__nav_first-active")
+    document.body.style.overflow = 'hidden';
 }
 
 function burgerClose() {
     header_nav_first.classList.remove("header__nav_first-active")
+    document.body.style.overflow = 'auto';
 }
 
 
