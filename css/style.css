@@ -884,7 +884,7 @@ img {
     height: 100%;
     padding: 75px;
     transform: translateX(100%);
-    transition: all 0.6s linear;
+    transition: all 0.4s linear;
   }
   .header__nav_first-active {
     transform: translateX(0%);
