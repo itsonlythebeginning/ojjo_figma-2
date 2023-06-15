@@ -118,7 +118,7 @@ function burgerClose() {
             if (timeElapsed < duration) requestAnimationFrame(animation);
         };
         requestAnimationFrame(animation);
-
+        burgerClose();
     };
 
     const scrollTo = function () {
